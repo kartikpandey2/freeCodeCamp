@@ -36,7 +36,8 @@
     "test-js-common": "tape -r babel-register \"common/**/*.test.js\" | tap-spec",
     "test-js-server": "tape -r babel-register \"server/**/*.test.js\" | tap-spec",
     "unpack": "babel-node seed/unpack.js",
-    "repack": "babel-node seed/repack.js"
+    "repack": "babel-node seed/repack.js",
+    "prepare": "npm run snyk-protect"
   },
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "dependencies": {
@@ -142,7 +143,7 @@
     "rx-dom": "^7.0.3",
     "sanitize-html": "^1.11.1",
     "shortid": "^2.2.12",
-    "snyk": "^1.69.1",
+    "snyk": "^1.161.1",
     "stripe": "^6.1.0",
     "uuid": "^3.0.1",
     "validator": "^9.4.1"
