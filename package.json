@@ -90,7 +90,7 @@
     "jsonwebtoken": "^8.2.1",
     "lightbox2": "~2.8.2",
     "lodash": "^4.17.5",
-    "loopback": "^3.16.2",
+    "loopback": "^3.26.0",
     "loopback-boot": "^2.27.1",
     "loopback-connector-mongodb": "^3.3.0",
     "method-override": "^2.3.0",
