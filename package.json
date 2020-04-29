@@ -74,7 +74,7 @@
     "express": "^4.13.3",
     "express-flash": "~0.0.2",
     "express-session": "^1.12.1",
-    "express-state": "^1.2.0",
+    "express-state": "^2.0.0",
     "express-validator": "^5.0.3",
     "fetchr": "^0.5.37",
     "frameguard": "^3.0.0",
